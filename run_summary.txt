@@ -1,0 +1,34 @@
+PyOD AutoEncoder Fraud Detection (DEMO OUTPUT)
+Data: creditcard_sample.csv
+Rows (test set): 200
+Epochs: 5, Batch size: 16
+Contamination: 0.04
+
+Metrics:
+{
+  "roc_auc": 0.87,
+  "pr_auc": 0.23,
+  "precision": 0.18,
+  "recall": 0.6,
+  "f1": 0.28,
+  "confusion_matrix": [
+    [
+      188,
+      4
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "support_positive": 8,
+  "support_negative": 192
+}
+
+Classification Report (demo):
+              precision    recall  f1-score   support
+           0       0.98      0.98      0.98       192
+           1       0.18      0.50      0.26         8
+    accuracy                           0.96       200
+   macro avg       0.58      0.74      0.62       200
+weighted avg       0.95      0.96      0.95       200
