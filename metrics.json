@@ -1,0 +1,19 @@
+{
+  "roc_auc": 0.87,
+  "pr_auc": 0.23,
+  "precision": 0.18,
+  "recall": 0.6,
+  "f1": 0.28,
+  "confusion_matrix": [
+    [
+      188,
+      4
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "support_positive": 8,
+  "support_negative": 192
+}
